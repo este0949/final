@@ -109,14 +109,17 @@ nav h1 {
     height: 400px;
     display: inline-block;
     align-content: center;
+    transition: 0.3s;
 }
 .container:hover {
     transform: scale(1.05);
+
 }
 .image {
     display: grid;
     height: 300px;
     float: left;
+
 }
 .overlay {
     transition: all .3s ease;
@@ -235,7 +238,7 @@ footer img {
     }
     .about p{
         width: 320px;
-        margin-top: 80px;
+        margin-top: 30px;
     }
     .profile{
        width: 50%;
